@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  margin: 5rem;
+}
+.green {
+  color: rgb(5, 245, 245);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: 4rem;
+  color: white;
+  margin: 5rem;
+  position: relative;
+}
+.container1 {
+  background-color: rgb(17, 27, 38);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2.4rem;
+  /* margin-left: 9rem; */
+}
+.container2 {
+  padding: 2rem;
+  background-color: rgb(3, 19, 43);
+}
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+}
+.column3 {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  background-color: rgb(38, 36, 36);
+  border-radius: 20px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+h3 {
+}
+p {
+  font-size: smaller;
+}
+.pad {
+  padding: 1rem 0;
+}
+.padd {
+  padding-top: 1.45rem;
+  padding-bottom: 1rem;
+}
+.long {
+  width: 8rem;
+}
+p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+h3 {
+  color: rgb(233, 230, 230);
+  font-weight: 600;
+}
+h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: lighter;
+}
+i {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.bold {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.bold1 {
+  font-size: 2rem;
+}
+.sty {
+  color: rgb(233, 230, 230);
+  font-weight: bold;
+}
+.r {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: lighter;
+}
+.footer {
+  background-color: rgb(3, 19, 43);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin: 5rem;
+  padding: 1.5rem 1rem;
+  /* margin-top: -5.5rem; */
+  width: 64.8rem;
+  position: absolute;
+  bottom: -10rem;
+  border: 1px solid rgba(255, 255, 255, 0.091);
+}
+.bolder {
+  font-size: 2rem;
+  color: white;
+}
